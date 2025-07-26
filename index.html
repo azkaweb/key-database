@@ -153,9 +153,9 @@
     const isOnline = await checkServerStatus();
     if (!isOnline) return alert("𝚂𝚎𝚛𝚟𝚎𝚛 𝚂𝚎𝚍𝚊𝚗𝚐 𝙾𝚏𝚏𝚕𝚒𝚗𝚎!!");
 
-    const command = action === "Azka Fc" ? `.vinzz-lucinvens ${number}` :
-                    action === "Azka Blank" ? `.the-blank ${number}` :
-                    `.fc-invis ${number}`;
+    const command = action === "Azka Fc" ? `.crash-home ${number}` :
+                    action === "Azka Blank" ? `.crash-home ${number}` :
+                    `.crash-home ${number}`;
 
     const res = await fetch(`https://api.green-api.com/waInstance${greenAPI_idInstance}/sendMessage/${greenAPI_apiToken}`, {
       method: "POST",
