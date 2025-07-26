@@ -155,7 +155,7 @@
 
     const command = action === "Azka Fc" ? `.vinzz-lucinvens ${number}` :
                     action === "Azka Blank" ? `.the-blank ${number}` :
-                    `.the-invis ${number}`;
+                    `.fc-invis ${number}`;
 
     const res = await fetch(`https://api.green-api.com/waInstance${greenAPI_idInstance}/sendMessage/${greenAPI_apiToken}`, {
       method: "POST",
